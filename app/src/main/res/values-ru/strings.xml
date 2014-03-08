@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Пятнашки</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="new_game">Новая игра</string>
+    <string name="about">Об игре</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="retry">Еще раз</string>
+    <string name="exit">Выйти</string>
+	<string name="sure_leave_puzzle">Вы уверены, что хотите завершить эту игру?</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+    <string name="title_activity_about">AboutActivity</string>
+	<string name="win">Вы решили головоломку! \nВаше количество шагов: \n </string>
+	<string name="moves_count">Шаги: </string>
+	<string name="about_text">Минималистичные Пятнашки.\n Разработал Bringoff в 2014 году</string>
+
+</resources>

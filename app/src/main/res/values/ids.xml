@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item type="id" name="btn00" />
+	<item type="id" name="btn01" />
+	<item type="id" name="btn02" />
+	<item type="id" name="btn03" />
+	<item type="id" name="btn10" />
+	<item type="id" name="btn11" />
+	<item type="id" name="btn12" />
+	<item type="id" name="btn13" />
+	<item type="id" name="btn20" />
+	<item type="id" name="btn21" />
+	<item type="id" name="btn22" />
+	<item type="id" name="btn23" />
+	<item type="id" name="btn30" />
+	<item type="id" name="btn31" />
+	<item type="id" name="btn32" />
+	<item type="id" name="btn33" />
+	
+	<item type="id" name="lin0"/>
+	<item type="id" name="lin1"/>
+	<item type="id" name="lin2"/>
+	<item type="id" name="lin3"/>
+	<item type="id" name="lin4"/>
+	<item type="id" name="lin5"/>
+	<item type="id" name="lin6"/>
+
+</resources>

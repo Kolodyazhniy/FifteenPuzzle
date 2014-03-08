@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fifteen Puzzle</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="title_activity_win">WinActivity</string>
+	<string name="win">You solved this puzzle! \nYour moves count is \n </string>
+	<string name="only_moves_word"> moves!</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+	<string name="sure_leave_puzzle">Are you sure you want to leave this game?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+    <string name="title_activity_about">AboutActivity</string>
+	<string name="moves_count">Moves: </string>
+	<string name="about_text">Minimalistic Fifteen Puzzle.\n Developed by Bringoff in 2014</string>
+
+</resources>

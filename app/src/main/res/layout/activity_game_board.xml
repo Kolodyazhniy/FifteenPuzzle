@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity">
+
+	<TextView
+		android:id="@+id/moves_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/button_font_size"
+		android:padding="4dp"
+		android:text="@string/moves_count"/>
+
+	<LinearLayout
+		android:id="@+id/buttons_board"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+	</LinearLayout>
+
+</FrameLayout>
