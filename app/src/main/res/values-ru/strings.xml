@@ -15,5 +15,8 @@
 	<string name="win">Вы решили головоломку! \nВаше количество шагов: \n </string>
 	<string name="moves_count">Шаги: </string>
 	<string name="about_text">Минималистичные Пятнашки.\n Разработал Bringoff в 2014 году</string>
+	<string name="puzzle_size_textview_text">Размер поля:</string>
+	<string name="preferences">Настройки</string>
+	<string name="sounds_text_view">Звуки</string>
 
 </resources>

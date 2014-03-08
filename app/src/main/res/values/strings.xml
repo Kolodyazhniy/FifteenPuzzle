@@ -10,15 +10,19 @@
     <string name="new_game">New Game</string>
     <string name="about">About</string>
     <string name="title_activity_win">WinActivity</string>
-	<string name="win">You solved this puzzle! \nYour moves count is \n </string>
-	<string name="only_moves_word"> moves!</string>
+    <string name="win">You solved this puzzle! \nYour moves count is \n </string>
+    <string name="only_moves_word"> moves!</string>
     <string name="retry">Retry</string>
     <string name="exit">Exit</string>
-	<string name="sure_leave_puzzle">Are you sure you want to leave this game?</string>
-	<string name="yes">Yes</string>
-	<string name="no">No</string>
+    <string name="sure_leave_puzzle">Are you sure you want to leave this game?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
     <string name="title_activity_about">AboutActivity</string>
-	<string name="moves_count">Moves: </string>
-	<string name="about_text">Minimalistic Fifteen Puzzle.\n Developed by Bringoff in 2014</string>
+    <string name="moves_count">Moves: </string>
+    <string name="about_text">Minimalistic Fifteen Puzzle.\n Developed by Bringoff in 2014</string>
+    <string name="title_activity_prefs">PrefsActivity</string>
+	<string name="puzzle_size_textview_text">Puzzle size:</string>
+	<string name="preferences">Settings</string>
+	<string name="sounds_text_view">Sounds</string>
 
 </resources>

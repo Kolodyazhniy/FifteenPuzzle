@@ -3,6 +3,8 @@ package ua.bringoff.developer.fifteenpuzzle;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 public class AboutActivity extends Activity {

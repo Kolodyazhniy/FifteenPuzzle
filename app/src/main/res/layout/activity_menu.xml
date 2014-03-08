@@ -21,6 +21,17 @@
 		android:textSize="36sp"/>
 
 	<Button
+		android:id="@+id/button_preferences"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@color/orange_cool"
+		android:text="@string/preferences"
+		android:textColor="@android:color/white"
+		android:paddingTop="16dp"
+		android:paddingBottom="16dp"
+		android:textSize="36sp"/>
+
+	<Button
 		android:id="@+id/button_about"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"

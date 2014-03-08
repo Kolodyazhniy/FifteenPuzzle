@@ -4,9 +4,11 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
@@ -22,16 +24,22 @@ import java.util.Random;
 
 
 public class GameBoardActivity extends Activity {
-    public static final int SIZE = 4;
+    public static int SIZE;
     private static final String TAG = "FifteenGame_Tag";
+    public static boolean SOUNDS = true;
     public static final String MOVES_EXTRA = "ua.bringoff.developer.fifteenpuzzle.moves";
 
     private final int[] ids = {R.id.btn00, R.id.btn01, R.id.btn02, R.id.btn03,
             R.id.btn10, R.id.btn11, R.id.btn12, R.id.btn13,
             R.id.btn20, R.id.btn21, R.id.btn22, R.id.btn23,
-            R.id.btn30, R.id.btn31, R.id.btn32, R.id.btn33,};
+            R.id.btn30, R.id.btn31, R.id.btn32, R.id.btn33,
+            R.id.btn40, R.id.btn41, R.id.btn42, R.id.btn43,
+            R.id.btn50, R.id.btn51, R.id.btn52, R.id.btn53,
+            R.id.btn60, R.id.btn61, R.id.btn62, R.id.btn63,
+            R.id.btn70, R.id.btn71, R.id.btn72, R.id.btn73,
+            R.id.btn80, R.id.btn81, R.id.btn82, R.id.btn83,};
 
-    private int[][] mPuzzle = new int[SIZE][SIZE];
+    private int[][] mPuzzle;
 
     private LinearLayout mButtonsField;
     private TextView mMovesTextView;
@@ -40,13 +48,23 @@ public class GameBoardActivity extends Activity {
 
     private int mMoves;
 
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_board);
 
+        SharedPreferences sharedPreferences = getSharedPreferences(
+                PrefsActivity.APP_PREFERENCES, MODE_PRIVATE);
+        SIZE = sharedPreferences.getInt(PrefsActivity.KEY_RADIOBUTTON_INDEX, 1) + 3;
+        SOUNDS = sharedPreferences.getBoolean(PrefsActivity.KEY_CHECKBOX_SOUND_CHECKED, true);
+
+        mPuzzle = new int[SIZE][SIZE];
+
         mButtonsField = (LinearLayout) findViewById(R.id.buttons_board);
+
+        mp = MediaPlayer.create(this, R.raw.button_move);
 
         mMoves = 0;
         mMovesTextView = (TextView) findViewById(R.id.moves_text_view);
@@ -83,7 +101,7 @@ public class GameBoardActivity extends Activity {
         int width = screenSize.x;
         int height = screenSize.y;
         mButtonSize = width / SIZE - 16;
-        mButtonsField.setPadding(0, (height - (mButtonSize * 4)) / 2, 0, (height - (mButtonSize * 4)) / 2);
+        mButtonsField.setPadding(0, (height - (mButtonSize * SIZE)) / 2, 0, (height - (mButtonSize * SIZE)) / 2);
     }
 
 
@@ -125,6 +143,13 @@ public class GameBoardActivity extends Activity {
 
                         if (direction != 'N') {
                             movePuzzle(row, col, direction);
+
+                            if (SOUNDS) {
+                                if (mp.isPlaying()) {
+                                    mp.stop();
+                                }
+                                mp.start();
+                            }
 
                             mMoves++;
                             setMovesText();
@@ -188,6 +213,7 @@ public class GameBoardActivity extends Activity {
     @Override
     public void onBackPressed() {
         //super.onBackPressed();
+        mp.release();
         openLeavePuzzleDialog();
     }
 

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/orange_cool"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:padding="32dp">
+
+		<TextView
+			android:id="@+id/puzzle_size_textview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/puzzle_size_textview_text"
+			android:textSize="32sp"
+			android:textColor="@android:color/white" />
+
+		<RadioGroup
+			android:id="@+id/puzzle_size_radiogroup"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical">
+
+			<RadioButton
+				android:id="@+id/rb3x3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="3X3"
+				android:textSize="32sp"
+				android:textColor="@android:color/white" />
+
+			<RadioButton
+				android:id="@+id/rb4x4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="4X4"
+				android:checked="true"
+				android:textSize="32sp"
+				android:textColor="@android:color/white" />
+
+			<RadioButton
+				android:id="@+id/rb5x5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="5X5"
+				android:textSize="32sp"
+				android:textColor="@android:color/white" />
+
+			<RadioButton
+				android:id="@+id/rb6x6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="6X6"
+				android:textColor="@android:color/white"
+				android:textSize="32sp" />
+
+		</RadioGroup>
+
+	</LinearLayout>
+
+	<CheckBox
+		android:id="@+id/sounds_checkbox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:checked="true"
+		android:text="@string/sounds_text_view"
+		android:textColor="@android:color/white"
+		android:textSize="32sp"/>
+
+</LinearLayout>
