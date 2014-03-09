@@ -100,8 +100,8 @@ public class GameBoardActivity extends Activity {
         display.getSize(screenSize);
         int width = screenSize.x;
         int height = screenSize.y;
-        mButtonSize = width / SIZE - 16;
-        mButtonsField.setPadding(0, (height - (mButtonSize * SIZE)) / 2, 0, (height - (mButtonSize * SIZE)) / 2);
+        mButtonSize = width / SIZE - 8;
+        mButtonsField.setPadding(0, (height - (mButtonSize * SIZE)) / 2 - SIZE * 2, 0, (height - (mButtonSize * SIZE)) / 2 - SIZE * 2);
     }
 
 
@@ -126,7 +126,7 @@ public class GameBoardActivity extends Activity {
                 button.setWidth(mButtonSize);
                 button.setHeight(mButtonSize);
                 button.setTextColor(Color.WHITE);
-                button.setTextSize(mButtonSize / SIZE);
+                button.setTextSize(mButtonSize / SIZE );
                 button.setBackgroundColor(getResources().getColor(R.color.orange_cool));
                 button.setLayoutParams(layoutParams);
                 Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
@@ -299,7 +299,7 @@ public class GameBoardActivity extends Activity {
         int count = 1;
         for (int i = 0; i < normalPuzzle.length; i++) {
             for (int j = 0; j < normalPuzzle[0].length; j++) {
-                if (count == 16) {
+                if (count == SIZE * SIZE) {
                     normalPuzzle[i][j] = 0;
                 } else {
                     normalPuzzle[i][j] = count;
@@ -313,19 +313,26 @@ public class GameBoardActivity extends Activity {
 
 
     public void shufflePuzzle() {
-        List<Integer> availableNumbers = new LinkedList<>();
-        for (int i = 0; i <= SIZE * SIZE - 1; i++) {
-            availableNumbers.add(i);
-        }
+        mPuzzle = getNormalPuzzle();
 
-        Random r = new Random();
-        for (int i = 0; i < mPuzzle.length; i++) {
-            for (int j = 0; j < mPuzzle[0].length; j++) {
-
-                int num = r.nextInt(availableNumbers.size());
-                mPuzzle[i][j] = availableNumbers.get(num);
-                availableNumbers.remove(num);
+        while (true) {
+            int i = 1;
+            int x, y;
+            while (i < SIZE * 50) {
+                if (((int) (Math.random() * 2.0d)) == 0) {
+                    x = (int) (Math.random() * ((double) SIZE));
+                    y = getEmptyButton()[1];
+                    movePuzzle(x, y, canMove(x, y));
+                } else {
+                    x = getEmptyButton()[0];
+                    y = (int) (Math.random() * ((double) SIZE));
+                    movePuzzle(x, y, canMove(x, y));
+                }
+                i++;
             }
+            movePuzzle(SIZE - 1, getEmptyButton()[1], canMove(SIZE - 1, getEmptyButton()[1]));
+            movePuzzle(SIZE - 1, SIZE - 1, canMove(SIZE - 1, SIZE - 1));
+            return;
         }
     }
 
