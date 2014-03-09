@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">П\'ятна́шки</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="new_game">Нова гра</string>
+    <string name="about">Про гру</string>
+    <string name="title_activity_win">WinActivity</string>
+    <string name="retry">Ще раз</string>
+    <string name="exit">Вийти</string>
+	<string name="sure_leave_puzzle">Ви впевнені, що хочете закінчити цю гру?</string>
+	<string name="yes">Так</string>
+	<string name="no">Ні</string>
+    <string name="title_activity_about">AboutActivity</string>
+	<string name="win">Ви вирішили \nголоволомку ! \nВаша кількість кроків: \n </string>
+	<string name="moves_count">Кроки: </string>
+	<string name="about_text">Мінімалістичі П\'ятнашки.\n Розробив Bringoff в 2014 році</string>
+	<string name="puzzle_size_textview_text">Розмір поля:</string>
+	<string name="preferences">Налаштування</string>
+	<string name="sounds_text_view">Звуки</string>
+
+</resources>

@@ -12,7 +12,7 @@
 	<string name="yes">Да</string>
 	<string name="no">Нет</string>
     <string name="title_activity_about">AboutActivity</string>
-	<string name="win">Вы решили головоломку! \nВаше количество шагов: \n </string>
+	<string name="win">Вы решили \nголоволомку! \nВаше количество шагов: \n </string>
 	<string name="moves_count">Шаги: </string>
 	<string name="about_text">Минималистичные Пятнашки.\n Разработал Bringoff в 2014 году</string>
 	<string name="puzzle_size_textview_text">Размер поля:</string>
