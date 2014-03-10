@@ -11,6 +11,7 @@ import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
@@ -46,7 +47,7 @@ public class GameBoardActivity extends Activity {
 
     private int mButtonSize;
 
-    private int mMoves;
+    private int mMoves = 0;
 
     MediaPlayer mp;
 
@@ -66,7 +67,6 @@ public class GameBoardActivity extends Activity {
 
         mp = MediaPlayer.create(this, R.raw.button_move);
 
-        mMoves = 0;
         mMovesTextView = (TextView) findViewById(R.id.moves_text_view);
 
         shufflePuzzle();
@@ -95,13 +95,10 @@ public class GameBoardActivity extends Activity {
     }
 
     private void setSizes() {
-        Display display = getWindowManager().getDefaultDisplay();
-        Point screenSize = new Point();
-        display.getSize(screenSize);
-        int width = screenSize.x;
-        int height = screenSize.y;
-        mButtonSize = width / SIZE - 8;
-        mButtonsField.setPadding(0, (height - (mButtonSize * SIZE)) / 2 - SIZE * 2, 0, (height - (mButtonSize * SIZE)) / 2 - SIZE * 2);
+        int width = getResources().getDisplayMetrics().widthPixels;
+        int height = getResources().getDisplayMetrics().heightPixels;
+        mButtonSize = width / SIZE - SIZE * 2;
+        mButtonsField.setPadding(2, (height - (mButtonSize * SIZE)) / 2, 2, 0);
     }
 
 
@@ -114,19 +111,21 @@ public class GameBoardActivity extends Activity {
             layout.setOrientation(LinearLayout.HORIZONTAL);
             mButtonsField.addView(layout);
 
+
             for (int j = 0; j < SIZE; j++) {
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                        LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
 
                 layoutParams.setMargins(1, 1, 1, 1);
 
-                Button button = new Button(getBaseContext());
+                Button button = new Button(this);
                 button.setId(ids[count]);
                 button.setTag(i + "," + j);
                 button.setWidth(mButtonSize);
                 button.setHeight(mButtonSize);
                 button.setTextColor(Color.WHITE);
-                button.setTextSize(mButtonSize / SIZE );
+                button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, (mButtonSize / 5));
+                Log.d("Buttons", "Text size" + String.valueOf(button.getTextSize()));
                 button.setBackgroundColor(getResources().getColor(R.color.orange_cool));
                 button.setLayoutParams(layoutParams);
                 Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
@@ -348,6 +347,7 @@ public class GameBoardActivity extends Activity {
                     btn.setText("" + mPuzzle[i][j]);
                     btn.setBackgroundColor(getResources().getColor(R.color.orange_cool));
                 }
+                //Log.d("Buttons", String.valueOf(btn.getWidth()));
                 count += 0x1;
             }
 
