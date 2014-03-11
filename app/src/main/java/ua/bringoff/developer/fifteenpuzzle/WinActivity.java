@@ -2,14 +2,25 @@ package ua.bringoff.developer.fifteenpuzzle;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class WinActivity extends Activity {
+
+    public static int COLOR = 0;
+
+    Button btnExit;
+    Button btnRetry;
+
+    LinearLayout mLayout;
 
     @Override
     protected void onDestroy() {
@@ -27,6 +38,9 @@ public class WinActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_win);
 
+        mLayout = (LinearLayout) findViewById(R.id.win_layout);
+        mLayout.setBackgroundColor(COLOR);
+
         int moves = getIntent().getIntExtra(GameBoardActivity.MOVES_EXTRA, 0);
 
         TextView tvWin = (TextView) findViewById(R.id.win_text);
@@ -34,14 +48,14 @@ public class WinActivity extends Activity {
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
         tvWin.setTypeface(typeface);
 
-        Button btnExit = (Button) findViewById(R.id.exit_button);
+        btnExit = (Button) findViewById(R.id.exit_button);
         btnExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 exit();
             }
         });
-        Button btnRetry = (Button) findViewById(R.id.retry_button);
+        btnRetry = (Button) findViewById(R.id.retry_button);
         btnRetry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,6 +64,20 @@ public class WinActivity extends Activity {
                 finish();
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPreferences = getSharedPreferences(PrefsActivity.APP_PREFERENCES, MODE_PRIVATE);
+        int color = sharedPreferences.getInt(PrefsActivity.KEY_GAME_COLOR, getResources().getColor(R.color.orange_cool));
+        if (COLOR != color) {
+            COLOR = color;
+        }
+        mLayout.setBackgroundColor(COLOR);
+        btnExit.setBackgroundColor(COLOR);
+        btnRetry.setBackgroundColor(COLOR);
     }
 
     public void exit() {

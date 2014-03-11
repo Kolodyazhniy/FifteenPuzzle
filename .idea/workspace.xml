@@ -51,8 +51,7 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Buttons" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: ua.bringoff.developer.fifteenpuzzle" />
   </component>
   <component name="ChangeListManager">
@@ -111,7 +110,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" line="247" class="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity" package="ua.bringoff.developer.fifteenpuzzle">
+      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" line="261" class="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity" package="ua.bringoff.developer.fifteenpuzzle">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -126,7 +125,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" line="97" class="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity" package="ua.bringoff.developer.fifteenpuzzle">
+      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" line="101" class="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity" package="ua.bringoff.developer.fifteenpuzzle">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -141,7 +140,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" line="123" class="ua.bringoff.developer.fifteenpuzzle.GameBoardActivity" package="ua.bringoff.developer.fifteenpuzzle">
+      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java" line="145" class="ua.bringoff.developer.fifteenpuzzle.PrefsActivity" package="ua.bringoff.developer.fifteenpuzzle">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java" line="133" class="ua.bringoff.developer.fifteenpuzzle.PrefsActivity" package="ua.bringoff.developer.fifteenpuzzle">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -169,8 +183,8 @@
       <file leaf-file-name="activity_menu.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="289" max-vertical-offset="833">
-              <caret line="17" column="35" selection-start="673" selection-end="716" />
+            <state vertical-scroll-proportion="-12.62963" vertical-offset="271" max-vertical-offset="799">
+              <caret line="36" column="0" selection-start="1205" selection-end="1205" />
               <folding />
             </state>
           </provider>
@@ -182,9 +196,17 @@
       <file leaf-file-name="activity_prefs.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1394">
-              <caret line="43" column="37" selection-start="1335" selection-end="1335" />
-              <folding />
+            <state vertical-scroll-proportion="-6.296296" vertical-offset="1309" max-vertical-offset="2261">
+              <caret line="87" column="0" selection-start="2547" selection-end="2547" />
+              <folding>
+                <element signature="e#573#608#0" expanded="true" />
+                <element signature="e#1027#1041#0" expanded="true" />
+                <element signature="e#1261#1275#0" expanded="true" />
+                <element signature="e#1522#1536#0" expanded="true" />
+                <element signature="e#1756#1770#0" expanded="true" />
+                <element signature="e#2047#2073#0" expanded="true" />
+                <element signature="e#2263#2298#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -195,9 +217,11 @@
       <file leaf-file-name="activity_win.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1020">
-              <caret line="16" column="33" selection-start="682" selection-end="682" />
-              <folding />
+            <state vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1037">
+              <caret line="2" column="31" selection-start="149" selection-end="149" />
+              <folding>
+                <element signature="e#704#726#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -205,56 +229,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1173">
-              <caret line="42" column="26" selection-start="1777" selection-end="1777" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="4" column="19" selection-start="198" selection-end="240" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
-              <caret line="6" column="34" selection-start="421" selection-end="421" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameBoardActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameBoardActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7242267" vertical-offset="3315" max-vertical-offset="5661">
-              <caret line="133" column="42" selection-start="4767" selection-end="4767" />
+            <state vertical-scroll-proportion="-6.535714" vertical-offset="3183" max-vertical-offset="5814">
+              <caret line="226" column="21" selection-start="7640" selection-end="7643" />
               <folding>
-                <element signature="e#4767#6016#0" expanded="true" />
-                <element signature="e#5997#5998#0" expanded="true" />
-                <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
+                <element signature="e#3007#3053#0" expanded="true" />
+                <element signature="e#7904#7956#0" expanded="true" />
+                <element signature="e#7993#8031#0" expanded="true" />
+                <element signature="e#8463#8500#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ids.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="918">
-              <caret line="39" column="0" selection-start="1240" selection-end="1240" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -262,8 +247,8 @@
       <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1071">
-              <caret line="46" column="18" selection-start="1576" selection-end="1576" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1343">
+              <caret line="52" column="19" selection-start="1762" selection-end="1762" />
               <folding />
             </state>
           </provider>
@@ -272,29 +257,46 @@
       <file leaf-file-name="PrefsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1938">
-              <caret line="69" column="31" selection-start="2756" selection-end="2756" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2431">
+              <caret line="128" column="87" selection-start="4945" selection-end="4945" />
+              <folding>
+                <element signature="e#1602#2069#0" expanded="true" />
+                <element signature="e#2058#2059#0" expanded="true" />
+                <element signature="e#2289#2535#0" expanded="true" />
+                <element signature="e#2524#2525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.471831" vertical-offset="4" max-vertical-offset="595">
+              <caret line="16" column="5" selection-start="350" selection-end="350" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+      <file leaf-file-name="RecordsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/RecordsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="476">
-              <caret line="14" column="35" selection-start="634" selection-end="634" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <caret line="11" column="28" selection-start="315" selection-end="315" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml">
+      <file leaf-file-name="WinActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="476">
-              <caret line="13" column="30" selection-start="567" selection-end="567" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1258">
+              <caret line="81" column="0" selection-start="2544" selection-end="2544" />
+              <folding>
+                <element signature="e#1236#1274#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -709,7 +711,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4182606168645" />
+        <entry key="$PROJECT_DIR$" value="4182700678126" />
       </map>
     </option>
   </component>
@@ -717,22 +719,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_board.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/menu_alpha.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/menu_exit_alpha.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/about_scale.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/scale.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/anim/exit_alpha.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-ua/strings.xml" />
@@ -740,8 +733,18 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/RecordsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -796,6 +799,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1058,8 +1063,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1073,7 +1076,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.1.111:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="d00d886f" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -1083,6 +1086,7 @@
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Java/Android/FifteenPuzzle/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1276,6 +1280,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1285,7 +1290,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2907916" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2907916" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1297,7 +1302,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1320,25 +1324,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2163" max-vertical-offset="4573">
-          <caret line="132" column="41" selection-start="4626" selection-end="4626" />
-          <folding>
-            <element signature="e#4767#6016#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-            <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1071">
-          <caret line="43" column="13" selection-start="1357" selection-end="1357" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
@@ -1350,7 +1335,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="986">
           <caret line="15" column="25" selection-start="645" selection-end="645" />
-          <folding />
+          <folding>
+            <element signature="e#704#726#0" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -1408,9 +1395,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2329">
           <caret line="77" column="50" selection-start="2494" selection-end="2494" />
           <folding>
-            <element signature="e#4767#6016#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-            <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
+            <element signature="e#3007#3053#0" expanded="true" />
+            <element signature="e#7904#7956#0" expanded="true" />
+            <element signature="e#7993#8031#0" expanded="true" />
+            <element signature="e#8463#8500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1455,9 +1443,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2503" max-vertical-offset="2720">
           <caret line="149" column="29" selection-start="5153" selection-end="5153" />
           <folding>
-            <element signature="e#4767#6016#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-            <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
+            <element signature="e#3007#3053#0" expanded="true" />
+            <element signature="e#7904#7956#0" expanded="true" />
+            <element signature="e#7993#8031#0" expanded="true" />
+            <element signature="e#8463#8500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1502,9 +1491,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2255" max-vertical-offset="2720">
           <caret line="151" column="8" selection-start="5181" selection-end="5181" />
           <folding>
-            <element signature="e#4767#6016#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-            <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
+            <element signature="e#3007#3053#0" expanded="true" />
+            <element signature="e#7904#7956#0" expanded="true" />
+            <element signature="e#7993#8031#0" expanded="true" />
+            <element signature="e#8463#8500#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1556,13 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233532" vertical-offset="943" max-vertical-offset="7565">
-          <caret line="63" column="16" selection-start="2638" selection-end="2638" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
@@ -1575,21 +1558,6 @@
         <state vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="568">
           <caret line="15" column="1" selection-start="311" selection-end="311" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="5" column="0" selection-start="154" selection-end="154" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
-          <caret line="30" column="0" selection-start="772" selection-end="772" />
         </state>
       </provider>
     </entry>
@@ -1614,13 +1582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61340207" vertical-offset="0" max-vertical-offset="391">
-          <caret line="19" column="5" selection-start="677" selection-end="677" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_board.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5555553" vertical-offset="0" max-vertical-offset="493">
@@ -1640,78 +1601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.62963" vertical-offset="22" max-vertical-offset="527">
-          <caret line="15" column="21" selection-start="667" selection-end="696" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="833">
-          <caret line="17" column="35" selection-start="673" selection-end="716" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1394">
-          <caret line="43" column="37" selection-start="1335" selection-end="1335" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="1734">
-          <caret line="69" column="31" selection-start="2756" selection-end="2756" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="918">
           <caret line="39" column="0" selection-start="1240" selection-end="1240" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1173">
-          <caret line="42" column="26" selection-start="1777" selection-end="1777" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1020">
-          <caret line="16" column="33" selection-start="682" selection-end="682" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="6" column="34" selection-start="421" selection-end="421" />
           <folding />
         </state>
       </provider>
@@ -1732,39 +1625,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34020618" vertical-offset="4" max-vertical-offset="595">
-          <caret line="8" column="20" selection-start="157" selection-end="157" />
+        <state vertical-scroll-proportion="0.28099173" vertical-offset="0" max-vertical-offset="363">
+          <caret line="6" column="34" selection-start="421" selection-end="421" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state vertical-scroll-proportion="0.18732782" vertical-offset="0" max-vertical-offset="363">
           <caret line="4" column="19" selection-start="198" selection-end="240" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1173">
+          <caret line="42" column="26" selection-start="1777" selection-end="1777" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43814433" vertical-offset="102" max-vertical-offset="493">
+          <caret line="24" column="8" selection-start="834" selection-end="1180" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="544">
+          <caret line="2" column="33" selection-start="156" selection-end="156" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20135364" vertical-offset="0" max-vertical-offset="591">
+          <caret line="7" column="27" selection-start="256" selection-end="256" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/RecordsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="11" column="28" selection-start="315" selection-end="315" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="2" column="31" selection-start="149" selection-end="149" />
+          <folding>
+            <element signature="e#704#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33116883" vertical-offset="952" max-vertical-offset="7565">
+          <caret line="63" column="16" selection-start="2638" selection-end="2638" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.62963" vertical-offset="271" max-vertical-offset="799">
+          <caret line="36" column="0" selection-start="1205" selection-end="1205" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1071">
-          <caret line="46" column="18" selection-start="1576" selection-end="1576" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1343">
+          <caret line="52" column="19" selection-start="1762" selection-end="1762" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1258">
+          <caret line="81" column="0" selection-start="2544" selection-end="2544" />
+          <folding>
+            <element signature="e#1236#1274#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7242267" vertical-offset="3315" max-vertical-offset="5661">
-          <caret line="133" column="42" selection-start="4767" selection-end="4767" />
+        <state vertical-scroll-proportion="-6.535714" vertical-offset="3183" max-vertical-offset="5814">
+          <caret line="226" column="21" selection-start="7640" selection-end="7643" />
           <folding>
-            <element signature="e#4767#6016#0" expanded="true" />
-            <element signature="e#5997#5998#0" expanded="true" />
-            <marker date="1394430515063" expanded="true" signature="3685:6098" placeholder="{...}" />
+            <element signature="e#3007#3053#0" expanded="true" />
+            <element signature="e#7904#7956#0" expanded="true" />
+            <element signature="e#7993#8031#0" expanded="true" />
+            <element signature="e#8463#8500#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.296296" vertical-offset="1309" max-vertical-offset="2261">
+          <caret line="87" column="0" selection-start="2547" selection-end="2547" />
+          <folding>
+            <element signature="e#573#608#0" expanded="true" />
+            <element signature="e#1027#1041#0" expanded="true" />
+            <element signature="e#1261#1275#0" expanded="true" />
+            <element signature="e#1522#1536#0" expanded="true" />
+            <element signature="e#1756#1770#0" expanded="true" />
+            <element signature="e#2047#2073#0" expanded="true" />
+            <element signature="e#2263#2298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2431">
+          <caret line="128" column="87" selection-start="4945" selection-end="4945" />
+          <folding>
+            <element signature="e#1602#2069#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2289#2535#0" expanded="true" />
+            <element signature="e#2524#2525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.471831" vertical-offset="4" max-vertical-offset="595">
+          <caret line="16" column="5" selection-start="350" selection-end="350" />
+          <folding />
         </state>
       </provider>
     </entry>

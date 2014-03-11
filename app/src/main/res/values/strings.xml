@@ -21,8 +21,13 @@
     <string name="moves_count">Moves: </string>
     <string name="about_text">Minimalistic Fifteen Puzzle.\n Developed by Bringoff in 2014</string>
     <string name="title_activity_prefs">PrefsActivity</string>
-	<string name="puzzle_size_textview_text">Puzzle size:</string>
-	<string name="preferences">Settings</string>
-	<string name="sounds_text_view">Sounds</string>
+    <string name="puzzle_size_textview_text">Puzzle size:</string>
+    <string name="preferences">Settings</string>
+    <string name="sounds_text_view">Sounds</string>
+    <string name="title_activity_records">RecordsActivity</string>
+	<string name="_3x3">3X3</string>
+	<string name="_4x4">4X4</string>
+	<string name="_5x5">5X5</string>
+	<string name="_6x6">6X6</string>
 
 </resources>

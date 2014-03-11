@@ -15,6 +15,8 @@ import android.util.TypedValue;
 import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -28,6 +30,7 @@ public class GameBoardActivity extends Activity {
     public static int SIZE;
     private static final String TAG = "FifteenGame_Tag";
     public static boolean SOUNDS = true;
+    public static int COLOR = 0;
     public static final String MOVES_EXTRA = "ua.bringoff.developer.fifteenpuzzle.moves";
 
     private final int[] ids = {R.id.btn00, R.id.btn01, R.id.btn02, R.id.btn03,
@@ -60,6 +63,7 @@ public class GameBoardActivity extends Activity {
                 PrefsActivity.APP_PREFERENCES, MODE_PRIVATE);
         SIZE = sharedPreferences.getInt(PrefsActivity.KEY_RADIOBUTTON_INDEX, 1) + 3;
         SOUNDS = sharedPreferences.getBoolean(PrefsActivity.KEY_CHECKBOX_SOUND_CHECKED, true);
+        COLOR = sharedPreferences.getInt(PrefsActivity.KEY_GAME_COLOR, sharedPreferences.getInt(PrefsActivity.KEY_GAME_COLOR, getResources().getColor(R.color.orange_cool)));
 
         mPuzzle = new int[SIZE][SIZE];
 
@@ -114,20 +118,18 @@ public class GameBoardActivity extends Activity {
 
             for (int j = 0; j < SIZE; j++) {
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+                        mButtonSize, mButtonSize, 1f);
 
                 layoutParams.setMargins(1, 1, 1, 1);
 
                 Button button = new Button(this);
                 button.setId(ids[count]);
                 button.setTag(i + "," + j);
-                button.setWidth(mButtonSize);
-                button.setHeight(mButtonSize);
-                button.setTextColor(Color.WHITE);
-                button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, (mButtonSize / 5));
-                Log.d("Buttons", "Text size" + String.valueOf(button.getTextSize()));
-                button.setBackgroundColor(getResources().getColor(R.color.orange_cool));
                 button.setLayoutParams(layoutParams);
+                button.setTextColor(Color.WHITE);
+                button.setTextSize(TypedValue.COMPLEX_UNIT_PX, mButtonSize / 3);
+                Log.d("Buttons", "Width" + String.valueOf(button.getWidth()));
+                button.setBackgroundColor(COLOR);
                 Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
                 button.setTypeface(typeface);
                 mMovesTextView.setTypeface(typeface);
@@ -167,6 +169,18 @@ public class GameBoardActivity extends Activity {
 
                 count++;
             }
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        SharedPreferences sharedPreferences = getSharedPreferences(PrefsActivity.APP_PREFERENCES, MODE_PRIVATE);
+        int color = sharedPreferences.getInt(PrefsActivity.KEY_GAME_COLOR, getResources().getColor(R.color.orange_cool));
+        if (COLOR != color) {
+            COLOR = color;
+
         }
     }
 
@@ -345,7 +359,7 @@ public class GameBoardActivity extends Activity {
                     btn.setBackgroundColor(mButtonsField.getSolidColor());
                 } else {
                     btn.setText("" + mPuzzle[i][j]);
-                    btn.setBackgroundColor(getResources().getColor(R.color.orange_cool));
+                    btn.setBackgroundColor(COLOR);
                 }
                 //Log.d("Buttons", String.valueOf(btn.getWidth()));
                 count += 0x1;
