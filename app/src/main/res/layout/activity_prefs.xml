@@ -76,7 +76,10 @@
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_margin="@dimen/activity_horizontal_margin"
+		android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		android:layout_marginRight="@dimen/activity_horizontal_margin"
+		android:layout_marginTop="4dp"
+		android:layout_marginBottom="4dp"
 		android:background="@android:color/white"
 		android:orientation="horizontal">
 
@@ -85,7 +88,10 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:background="@color/orange_cool"
-			android:layout_margin="8dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
 			android:layout_weight="1"
 			android:onClick="chooseColor"/>
 
@@ -94,7 +100,10 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:background="@color/blue_cool"
-			android:layout_margin="8dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
 			android:layout_weight="1"
 			android:onClick="chooseColor"/>
 		<Button
@@ -102,7 +111,10 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:background="@color/green_cool"
-			android:layout_margin="8dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
 			android:layout_weight="1"
 			android:onClick="chooseColor"/>
 
@@ -111,7 +123,10 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:background="@color/red_cool"
-			android:layout_margin="8dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
 			android:layout_weight="1"
 			android:onClick="chooseColor"/>
 
@@ -119,7 +134,10 @@
 			android:id="@+id/button_violet"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_margin="8dp"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_marginTop="1dp"
+			android:layout_marginBottom="1dp"
 			android:background="@color/violet_cool"
 			android:layout_weight="1"
 			android:onClick="chooseColor"/>

@@ -19,7 +19,7 @@
     <string name="no">No</string>
     <string name="title_activity_about">AboutActivity</string>
     <string name="moves_count">Moves: </string>
-    <string name="about_text">Minimalistic Fifteen Puzzle.\n Developed by Bringoff in 2014</string>
+    <string name="about_text">Fifteen Puzzle.\n Copyright © \nArtem Kalachyan.\n All right Reserved.\n Contact:\n</string>
     <string name="title_activity_prefs">PrefsActivity</string>
     <string name="puzzle_size_textview_text">Puzzle size:</string>
     <string name="preferences">Settings</string>
@@ -29,5 +29,7 @@
 	<string name="_4x4">4X4</string>
 	<string name="_5x5">5X5</string>
 	<string name="_6x6">6X6</string>
+	<string name="my_email"><u>bringoffart@gmail.com</u></string>
+	<string name="send_email_chooser_title">Send email…</string>
 
 </resources>

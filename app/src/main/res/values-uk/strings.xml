@@ -14,9 +14,10 @@
     <string name="title_activity_about">AboutActivity</string>
 	<string name="win">Ви вирішили \nголоволомку ! \nВаша кількість кроків: \n </string>
 	<string name="moves_count">Кроки: </string>
-	<string name="about_text">Мінімалістичі П\'ятнашки.\n Розробив Bringoff в 2014 році</string>
+	<string name="about_text">Fifteen Puzzle.\n Copyright © \nАртем Калачян.\n Всі права захищені.\n Зв\'язок:\n</string>
 	<string name="puzzle_size_textview_text">Розмір поля:</string>
 	<string name="preferences">Налаштування</string>
 	<string name="sounds_text_view">Звуки</string>
+	<string name="send_email_chooser_title">Надіслати email…</string>
 
 </resources>

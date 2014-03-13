@@ -3,6 +3,7 @@ package ua.bringoff.developer.fifteenpuzzle;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -15,9 +16,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 public class MenuActivity extends Activity {
-
-    public static int COLOR = 0;
-
     Button btnNewGame;
     Button btnPreferences;
     Button btnAbout;
@@ -25,11 +23,20 @@ public class MenuActivity extends Activity {
     LinearLayout layout;
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        PrefsManager.setContext(getApplicationContext());
+
         layout = (LinearLayout) findViewById(R.id.menu_layout);
+
         Display display = getWindowManager().getDefaultDisplay();
         Point screenSize = new Point();
         display.getSize(screenSize);
@@ -75,15 +82,10 @@ public class MenuActivity extends Activity {
     protected void onResume() {
         super.onResume();
 
-        SharedPreferences sharedPreferences = getSharedPreferences(PrefsActivity.APP_PREFERENCES, MODE_PRIVATE);
-        int color = sharedPreferences.getInt(PrefsActivity.KEY_GAME_COLOR, getResources().getColor(R.color.orange_cool));
-        if (COLOR != color) {
-            COLOR = color;
-        }
-        layout.setBackgroundColor(COLOR);
-        btnNewGame.setBackgroundColor(COLOR);
-        btnPreferences.setBackgroundColor(COLOR);
-        btnAbout.setBackgroundColor(COLOR);
+        layout.setBackgroundColor(PrefsManager.getMainColor());
+        btnNewGame.setBackgroundColor(PrefsManager.getMainColor());
+        btnPreferences.setBackgroundColor(PrefsManager.getMainColor());
+        btnAbout.setBackgroundColor(PrefsManager.getMainColor());
 
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.alpha);
 

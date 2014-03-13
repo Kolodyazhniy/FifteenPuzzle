@@ -58,10 +58,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="ua.bringoff.developer.fifteenpuzzle.RecordsActivity"
-            android:label="@string/title_activity_records" >
-        </activity>
     </application>
 
 </manifest>

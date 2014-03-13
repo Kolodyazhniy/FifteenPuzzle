@@ -2,11 +2,12 @@
 
     <color name="black_overlay">#66000000</color>
 	<color name="orange_cool">#FF8000</color>
-	<color name="blue_cool">#0000CC</color>
+	<color name="blue_cool">#0000FF</color>
 	<color name="violet_cool">#6600CC</color>
-	<color name="green_cool">#00CC00</color>
-	<color name="red_cool">#CC0000</color>
+	<color name="green_cool">#009900</color>
+	<color name="red_cool">#DF2E2E</color>
 
 	<color name="click_text_color">#FFFF99</color>
+	<color name="board_background">#FFE5CC</color>
 
 </resources>
