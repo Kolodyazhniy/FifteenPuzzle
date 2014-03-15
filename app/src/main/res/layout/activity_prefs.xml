@@ -75,7 +75,7 @@
 
 	<LinearLayout
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="64dp"
 		android:layout_marginLeft="@dimen/activity_horizontal_margin"
 		android:layout_marginRight="@dimen/activity_horizontal_margin"
 		android:layout_marginTop="4dp"
@@ -86,7 +86,7 @@
 		<Button
 			android:id="@+id/button_orange"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			android:layout_height="match_parent"
 			android:background="@color/orange_cool"
 			android:layout_marginLeft="1dp"
 			android:layout_marginRight="1dp"
@@ -98,7 +98,7 @@
 		<Button
 			android:id="@+id/button_blue"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			android:layout_height="match_parent"
 			android:background="@color/blue_cool"
 			android:layout_marginLeft="1dp"
 			android:layout_marginRight="1dp"
@@ -109,7 +109,7 @@
 		<Button
 			android:id="@+id/button_green"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			android:layout_height="match_parent"
 			android:background="@color/green_cool"
 			android:layout_marginLeft="1dp"
 			android:layout_marginRight="1dp"
@@ -121,7 +121,7 @@
 		<Button
 			android:id="@+id/button_red"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			android:layout_height="match_parent"
 			android:background="@color/red_cool"
 			android:layout_marginLeft="1dp"
 			android:layout_marginRight="1dp"
@@ -133,7 +133,7 @@
 		<Button
 			android:id="@+id/button_violet"
 			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
+			android:layout_height="match_parent"
 			android:layout_marginLeft="1dp"
 			android:layout_marginRight="1dp"
 			android:layout_marginTop="1dp"

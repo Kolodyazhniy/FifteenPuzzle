@@ -18,7 +18,7 @@
 		android:textColor="@android:color/white"
 		android:paddingBottom="16dp"
 		android:paddingTop="16dp"
-		android:textSize="36sp"/>
+		android:textSize="32sp"/>
 
 	<Button
 		android:id="@+id/button_preferences"
@@ -28,7 +28,7 @@
 		android:textColor="@android:color/white"
 		android:paddingTop="16dp"
 		android:paddingBottom="16dp"
-		android:textSize="36sp"/>
+		android:textSize="32sp"/>
 
 	<Button
 		android:id="@+id/button_about"
@@ -38,5 +38,5 @@
 		android:textColor="@android:color/white"
 		android:paddingTop="16dp"
 		android:paddingBottom="16dp"
-		android:textSize="36sp"/>
+		android:textSize="32sp"/>
 </LinearLayout>

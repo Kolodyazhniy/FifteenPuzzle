@@ -15,7 +15,7 @@
     <TextView
 	    android:id="@+id/about_text_view"
         android:text="@string/about_text"
-	    android:textSize="32dp"
+	    android:textSize="26sp"
 	    android:gravity="center"
 	    android:fontFamily="sans-serif-thin"
 	    android:textStyle="bold"
@@ -29,7 +29,7 @@
 		android:text="@string/my_email"
 		android:gravity="center"
 		android:linksClickable="true"
-		android:textSize="32dp"
+		android:textSize="26sp"
 		android:textColor="@android:color/white"/>
 
 </LinearLayout>

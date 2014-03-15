@@ -11,7 +11,9 @@ import android.media.SoundPool;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
+import android.view.GestureDetector;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -20,7 +22,7 @@ import android.widget.TextView;
 import java.io.IOException;
 
 
-public class GameBoardActivity extends Activity {
+public class GameBoardActivity extends Activity{
     public static int SIZE;
     public static boolean SOUNDS = true;
     public static int COLOR = 0;
@@ -44,6 +46,8 @@ public class GameBoardActivity extends Activity {
     private int mButtonSize;
 
     private int mMoves = 0;
+
+    private boolean mButtonIsDown;
 
     SoundPool mSoundPool;
     int moveId = -1;
@@ -117,6 +121,74 @@ public class GameBoardActivity extends Activity {
                 Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
                 button.setTypeface(typeface);
                 mMovesTextView.setTypeface(typeface);
+
+                button.setOnTouchListener(new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View v, MotionEvent event) {
+                        float x1 = 0;
+                        float y1 = 0;
+                        float x2 = 0, y2 = 0;
+
+                        char swipeDirection = 'N';
+
+                        switch (event.getAction()) {
+                            case MotionEvent.ACTION_DOWN:
+                                mButtonIsDown = true;
+                                x1 = event.getX();
+                                y1 = event.getY();
+                                System.out.println( "(" + x1 + "," + y1 + ")");
+                                break;
+
+                            case MotionEvent.ACTION_UP:
+                                x2 = event.getX();
+                                y2 = event.getY();
+                                Log.d("OnTouch", "(" + x2 + "," + y2);
+
+                                if (x2 - x1 > mButtonSize & x2 - x1 > y2 - y1) {
+                                    swipeDirection = 'R';
+                                } else if (x2 < 0 & x2 - x1 < y2 - y1) {
+                                    swipeDirection = 'L';
+                                } else if (y2 - y1 > mButtonSize & y2 - y1 > x2 - x1) {
+                                    swipeDirection = 'D';
+                                } else if (y2 < 0 & y2 - y1 < x2 - x1) {
+                                    swipeDirection = 'U';
+                                }
+
+                                System.out.println(swipeDirection + "");
+                                break;
+                        }
+
+                        String[] rowCol = v.getTag().toString().split(",");
+                        int row = Integer.parseInt(rowCol[0]);
+                        int col = Integer.parseInt(rowCol[1]);
+                        char acceptedDirection = mGameField.canMove(row, col);
+
+                        if (acceptedDirection != 'N' & acceptedDirection == swipeDirection) {
+                            mGameField.movePuzzle(row, col, acceptedDirection);
+
+                            if (SOUNDS) {
+                                if (moveId != -1) {
+                                    mSoundPool.play(moveId, 1, 1, 0, 0, 1);
+                                }
+                            }
+
+                            mMoves++;
+                            setMovesText();
+
+                            updateButtons();
+
+                            if (mGameField.checkIsWin()) {
+                                Intent winIntent = new Intent(GameBoardActivity.this, WinActivity.class).putExtra(MOVES_EXTRA, mMoves);
+                                startActivity(winIntent);
+                                finish();
+                            }
+                        }
+
+
+                        return false;
+                    }
+                });
+
                 button.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -203,4 +275,5 @@ public class GameBoardActivity extends Activity {
 
         }
     }
+
 }

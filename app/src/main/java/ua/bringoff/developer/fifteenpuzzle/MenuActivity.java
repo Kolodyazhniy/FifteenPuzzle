@@ -44,9 +44,7 @@ public class MenuActivity extends Activity {
         Typeface fontFace = Typeface.createFromAsset(getAssets(), "fonts/DROID.TTF");
 
         btnNewGame = (Button) findViewById(R.id.button_new_game);
-        btnNewGame.setWidth((int) Math.round(screenSize.x / 1.5));
         btnNewGame.setTypeface(fontFace);
-
         btnNewGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +54,6 @@ public class MenuActivity extends Activity {
             }
         });
         btnPreferences = (Button) findViewById(R.id.button_preferences);
-        btnPreferences.setWidth((int) Math.round(screenSize.x / 1.5));
         btnPreferences.setTypeface(fontFace);
         btnPreferences.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,7 +64,6 @@ public class MenuActivity extends Activity {
         });
 
         btnAbout = (Button) findViewById(R.id.button_about);
-        btnAbout.setWidth((int) Math.round(screenSize.x / 1.5));
         btnAbout.setTypeface(fontFace);
         btnAbout.setOnClickListener(new View.OnClickListener() {
             @Override
