@@ -10,7 +10,7 @@
     <string name="new_game">New Game</string>
     <string name="about">About</string>
     <string name="title_activity_win">WinActivity</string>
-    <string name="win">You solved this puzzle! \nYour moves count is \n </string>
+    <string name="win">You solved\nFifteen Puzzle! \nYour moves count is \n </string>
     <string name="only_moves_word"> moves!</string>
     <string name="retry">Retry</string>
     <string name="exit">Exit</string>

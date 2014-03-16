@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">П\'ятна́шки</string>
+    <string name="app_name">П\'ятнашки</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="new_game">Нова гра</string>
     <string name="about">Про гру</string>
@@ -12,7 +12,7 @@
 	<string name="yes">Так</string>
 	<string name="no">Ні</string>
     <string name="title_activity_about">AboutActivity</string>
-	<string name="win">Ви вирішили \nголоволомку ! \nВаша кількість кроків: \n </string>
+	<string name="win">Ви зябрали \nп\'ятнашки ! \nВаша кількість кроків: \n </string>
 	<string name="moves_count">Кроки: </string>
 	<string name="about_text">Fifteen Puzzle.\n Copyright © \nАртем Калачян.\n Всі права захищені.\n Зв\'язок:\n</string>
 	<string name="puzzle_size_textview_text">Розмір поля:</string>

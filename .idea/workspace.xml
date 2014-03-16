@@ -51,27 +51,19 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="OnTouch" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: ua.bringoff.developer.fifteenpuzzle" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a860c0-afba-4e2e-a058-79e4283cc676" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FifteenPuzzle.iml" afterPath="$PROJECT_DIR$/FifteenPuzzle.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_share.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Fifteen Puzzle.iws" />
@@ -136,111 +128,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="884">
-              <caret line="39" column="108" selection-start="1663" selection-end="1663" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_about.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.222222" vertical-offset="156" max-vertical-offset="697">
-              <caret line="27" column="28" selection-start="1066" selection-end="1066" />
-              <folding>
-                <element signature="e#670#690#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.185184" vertical-offset="0" max-vertical-offset="799">
-              <caret line="40" column="0" selection-start="1338" selection-end="1338" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_prefs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-86.25926" vertical-offset="0" max-vertical-offset="2567">
-              <caret line="137" column="27" selection-start="4170" selection-end="4170" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_win.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.592592" vertical-offset="357" max-vertical-offset="969">
-              <caret line="41" column="40" selection-start="1330" selection-end="1330" />
-              <folding>
-                <element signature="e#445#458#0" expanded="true" />
-                <element signature="e#478#500#0" expanded="true" />
-                <element signature="e#1084#1109#0" expanded="true" />
-                <element signature="e#1126#1141#0" expanded="true" />
-                <element signature="e#1351#1376#0" expanded="true" />
-                <element signature="e#1393#1407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="12" column="40" selection-start="558" selection-end="558" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameBoardActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2288" max-vertical-offset="3791">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="4233">
               <caret line="138" column="76" selection-start="5098" selection-end="5098" />
-              <folding>
-                <element signature="e#4449#7344#0" expanded="true" />
-                <element signature="e#7325#7326#0" expanded="true" />
-                <element signature="e#7390#8655#0" expanded="true" />
-                <element signature="e#8636#8637#0" expanded="true" />
-                <element signature="e#8801#8802#0" expanded="true" />
-                <element signature="e#8840#8841#0" expanded="true" />
-                <element signature="method#openLeavePuzzleDialog#0;class#GameBoardActivity#0" expanded="false" />
-                <element signature="method#updateButtons#0;class#GameBoardActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41091955" vertical-offset="27" max-vertical-offset="595">
-              <caret line="10" column="26" selection-start="213" selection-end="213" />
               <folding />
             </state>
           </provider>
@@ -249,7 +141,7 @@
       <file leaf-file-name="MenuActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1292">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1666">
               <caret line="82" column="20" selection-start="2775" selection-end="2775" />
               <folding />
             </state>
@@ -276,12 +168,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WinActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WinActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="1445">
-              <caret line="43" column="38" selection-start="1173" selection-end="1173" />
-              <folding />
+            <state vertical-scroll-proportion="0.44117647" vertical-offset="510" max-vertical-offset="2006">
+              <caret line="66" column="123" selection-start="2111" selection-end="2111" />
+              <folding>
+                <element signature="e#1895#3082#0" expanded="true" />
+                <element signature="e#3071#3072#0" expanded="true" />
+                <element signature="method#exit#0;class#WinActivity#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -972,11 +868,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameField.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/PrefsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_board.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/MenuActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
@@ -987,7 +879,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_prefs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_win.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java" />
       </list>
     </option>
   </component>
@@ -1042,7 +938,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1149,6 +1044,66 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values-uk" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-ru" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="values" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1205,6 +1160,96 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FifteenPuzzle" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1215,6 +1260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1245,14 +1291,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="ADV233" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\drawable-xhdpi" />
+      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\drawable-mdpi" />
+      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\drawable-hdpi" />
       <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\values-ua" />
       <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\values-ru" />
-      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\assets\fonts" />
-      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\drawable-hdpi" />
-      <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\Android\FifteenPuzzle\app\src\main\res\raw" />
@@ -1448,7 +1495,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35541195" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35541195" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1547,16 +1594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2329">
           <caret line="77" column="50" selection-start="2494" selection-end="2494" />
-          <folding>
-            <element signature="e#4449#7344#0" expanded="true" />
-            <element signature="e#7325#7326#0" expanded="true" />
-            <element signature="e#7390#8655#0" expanded="true" />
-            <element signature="e#8636#8637#0" expanded="true" />
-            <element signature="e#8801#8802#0" expanded="true" />
-            <element signature="e#8840#8841#0" expanded="true" />
-            <element signature="method#openLeavePuzzleDialog#0;class#GameBoardActivity#0" expanded="false" />
-            <element signature="method#updateButtons#0;class#GameBoardActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,16 +1636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2503" max-vertical-offset="2720">
           <caret line="149" column="29" selection-start="5153" selection-end="5153" />
-          <folding>
-            <element signature="e#4449#7344#0" expanded="true" />
-            <element signature="e#7325#7326#0" expanded="true" />
-            <element signature="e#7390#8655#0" expanded="true" />
-            <element signature="e#8636#8637#0" expanded="true" />
-            <element signature="e#8801#8802#0" expanded="true" />
-            <element signature="e#8840#8841#0" expanded="true" />
-            <element signature="method#openLeavePuzzleDialog#0;class#GameBoardActivity#0" expanded="false" />
-            <element signature="method#updateButtons#0;class#GameBoardActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,16 +1678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2255" max-vertical-offset="2720">
           <caret line="151" column="8" selection-start="5181" selection-end="5181" />
-          <folding>
-            <element signature="e#4449#7344#0" expanded="true" />
-            <element signature="e#7325#7326#0" expanded="true" />
-            <element signature="e#7390#8655#0" expanded="true" />
-            <element signature="e#8636#8637#0" expanded="true" />
-            <element signature="e#8801#8802#0" expanded="true" />
-            <element signature="e#8840#8841#0" expanded="true" />
-            <element signature="method#openLeavePuzzleDialog#0;class#GameBoardActivity#0" expanded="false" />
-            <element signature="method#updateButtons#0;class#GameBoardActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1755,7 +1775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="2737">
           <caret line="17" column="38" selection-start="358" selection-end="358" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,38 +1782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="4" column="24" selection-start="152" selection-end="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="697">
-          <caret line="39" column="108" selection-start="1663" selection-end="1663" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="493">
-          <caret line="20" column="53" selection-start="1062" selection-end="1062" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="493">
-          <caret line="20" column="46" selection-start="1051" selection-end="1051" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="697">
-          <caret line="32" column="47" selection-start="1672" selection-end="1672" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,14 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1292">
           <caret line="82" column="20" selection-start="2775" selection-end="2775" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="1445">
-          <caret line="43" column="38" selection-start="1173" selection-end="1173" />
           <folding />
         </state>
       </provider>
@@ -1878,7 +1857,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.185184" vertical-offset="0" max-vertical-offset="799">
+        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="799">
           <caret line="40" column="0" selection-start="1338" selection-end="1338" />
           <folding />
         </state>
@@ -1889,26 +1868,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-86.25926" vertical-offset="0" max-vertical-offset="2567">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="2567">
           <caret line="137" column="27" selection-start="4170" selection-end="4170" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2288" max-vertical-offset="3791">
-          <caret line="138" column="76" selection-start="5098" selection-end="5098" />
-          <folding>
-            <element signature="e#4449#7344#0" expanded="true" />
-            <element signature="e#7325#7326#0" expanded="true" />
-            <element signature="e#7390#8655#0" expanded="true" />
-            <element signature="e#8636#8637#0" expanded="true" />
-            <element signature="e#8801#8802#0" expanded="true" />
-            <element signature="e#8840#8841#0" expanded="true" />
-            <element signature="method#openLeavePuzzleDialog#0;class#GameBoardActivity#0" expanded="false" />
-            <element signature="method#updateButtons#0;class#GameBoardActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1917,11 +1879,41 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.222222" vertical-offset="156" max-vertical-offset="697">
+        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="697">
           <caret line="27" column="28" selection-start="1066" selection-end="1066" />
-          <folding>
-            <element signature="e#670#690#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="595">
+          <caret line="10" column="26" selection-start="213" selection-end="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="14" column="33" selection-start="632" selection-end="632" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-uk/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="14" column="37" selection-start="633" selection-end="633" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="697">
+          <caret line="12" column="35" selection-start="562" selection-end="562" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1930,24 +1922,46 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.592592" vertical-offset="357" max-vertical-offset="969">
-          <caret line="41" column="40" selection-start="1330" selection-end="1330" />
+        <state vertical-scroll-proportion="-4.9259257" vertical-offset="156" max-vertical-offset="1190">
+          <caret line="17" column="38" selection-start="608" selection-end="608" />
           <folding>
-            <element signature="e#445#458#0" expanded="true" />
-            <element signature="e#478#500#0" expanded="true" />
-            <element signature="e#1084#1109#0" expanded="true" />
-            <element signature="e#1126#1141#0" expanded="true" />
-            <element signature="e#1351#1376#0" expanded="true" />
-            <element signature="e#1393#1407#0" expanded="true" />
+            <element signature="e#771#784#0" expanded="true" />
+            <element signature="e#804#826#0" expanded="true" />
+            <element signature="e#1399#1424#0" expanded="true" />
+            <element signature="e#1441#1456#0" expanded="true" />
+            <element signature="e#1482#1517#0" expanded="true" />
+            <element signature="e#1727#1752#0" expanded="true" />
+            <element signature="e#1769#1783#0" expanded="true" />
+            <element signature="e#1809#1844#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41091955" vertical-offset="27" max-vertical-offset="595">
-          <caret line="10" column="26" selection-start="213" selection-end="213" />
+        <state vertical-scroll-proportion="0.7478849" vertical-offset="0" max-vertical-offset="646">
+          <caret line="39" column="108" selection-start="1663" selection-end="1663" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/GameBoardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2288" max-vertical-offset="3791">
+          <caret line="138" column="76" selection-start="5098" selection-end="5098" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/bringoff/developer/fifteenpuzzle/WinActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="510" max-vertical-offset="2006">
+          <caret line="66" column="123" selection-start="2111" selection-end="2111" />
+          <folding>
+            <element signature="e#1895#3082#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+            <element signature="method#exit#0;class#WinActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
